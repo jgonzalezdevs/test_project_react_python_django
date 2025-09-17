@@ -1,6 +1,6 @@
 
 for python + django testing:
-create venv with pipenv or venv
+create venv with pipenv or venv.
 install deps using pip install -r ~/project/requirements.txt
 activate venv
 run python dev server using: python manage.py runserver 8001
@@ -8,9 +8,7 @@ run python dev server using: python manage.py runserver 8001
 <img width="1920" height="4410" alt="screencapture-localhost-8001-api-docs-2025-09-17-09_45_28" src="https://github.com/user-attachments/assets/3f74f2e7-6823-4125-b1b5-e2dcfd607516" />
 
 for react:
-install npm deps as you prefer
-run: npm run dev
-it will run on 5173 as default
+install npm deps as you prefer, then run: npm run dev. it will run on 5173 as default
 
 <img width="1920" height="993" alt="screencapture-localhost-5173-projects-2025-09-17-09_39_52" src="https://github.com/user-attachments/assets/4c5609dc-655e-4a89-a6a5-3f1a149de585" />
 <img width="1920" height="993" alt="screencapture-localhost-5173-projects-2025-09-17-09_41_23" src="https://github.com/user-attachments/assets/084b4846-84a1-4333-aa2e-891fb88ffee6" />
