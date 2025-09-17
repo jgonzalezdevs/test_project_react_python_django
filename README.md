@@ -1,8 +1,8 @@
 
 for python + django testing:
-create venv with pipenv or venv.
-install deps using pip install -r ~/project/requirements.txt
-activate venv
+create venv with pipenv or venv. 
+install deps using pip install -r ~/project/requirements.txt. 
+activate venv. 
 run python dev server using: python manage.py runserver 8001
 
 <img width="1920" height="4410" alt="screencapture-localhost-8001-api-docs-2025-09-17-09_45_28" src="https://github.com/user-attachments/assets/3f74f2e7-6823-4125-b1b5-e2dcfd607516" />
