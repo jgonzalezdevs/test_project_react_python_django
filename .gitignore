@@ -1,0 +1,58 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+pip-log.txt
+pip-delete-this-arg.txt
+.tox/
+.coverage
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django specific
+*.sqlite3
+/media/
+/static/ # If you are collecting static files to a specific directory that shouldn't be versioned
+local_settings.py # Or any other file containing local/sensitive settings
+migrations/00*.py # If you prefer not to track migrations, though generally recommended to track them
+
+# React specific (frontend)
+node_modules/
+build/ # Or 'dist/' if your build output is named differently
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor and OS specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+.windsurfrules
+mcp.json

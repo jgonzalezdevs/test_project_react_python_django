@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Base document styles */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-700 underline-offset-2;
+}
+
+/* Utility overrides for MUI + Tailwind coexistence */
+.app-container {
+  @apply min-h-screen flex flex-col;
+}
